@@ -10,10 +10,20 @@ Para integrar esta herramienta en un proyecto, copie el siguiente código y colo
 <script src="https://cdn.jsdelivr.net/gh/opticrd/official-header@master/main.js"></script>
 ```
 
-Luego de esto, podrá utilizar el componente *official-header* en la parte superior de su sitema de navegación
+Luego de esto, podrá utilizar el componente **official-header** en la parte superior de su sitema de navegación
 
 ```html
 <official-header></official-header>
+```
+
+Nota: En caso de utilizar React.js o Next.js con typescript, debe crear un archivo **declarations.d.ts** y agregar el siguiente codigo:
+
+```typescript
+declare namespace JSX {
+  interface IntrinsicElements {
+    "official-header": any;
+  }
+}
 ```
 
 Con estos pasos ya queda listo para funcionar adecuadamente.
