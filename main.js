@@ -8,7 +8,7 @@ class GovernmentOfficialHeader extends HTMLElement {
       <style>
 
     .official-header {
-      font-family: 'sans-serif';
+      font-family: sans-serif;
       font-size: 14px;
       padding: 0 20px;
       background-color: white;
