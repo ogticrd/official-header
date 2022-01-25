@@ -5,10 +5,15 @@ class GovernmentOfficialHeader extends HTMLElement {
     template.innerHTML = /*html*/ `
 
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">    
+  
       <style>
 
+
     .official-header {
-      font-family: 'sans-serif';
+      font-family: 'Poppins', sans-serif;
       font-size: 14px;
       padding: 0 20px;
       background-color: white;
