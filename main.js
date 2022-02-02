@@ -13,7 +13,7 @@ class GovernmentOfficialHeader extends HTMLElement {
     .official-header {
       font-family: 'Poppins', sans-serif;
       font-size: 14px;
-      padding: 0 20px;
+      padding: 6px 20px;
       background-color: white;
     }
 
@@ -21,6 +21,10 @@ class GovernmentOfficialHeader extends HTMLElement {
         display: flex;
         align-items: center;
         gap: 8px;
+      }
+
+      .row  p {
+        margin: 0;
       }
 
       .flag {
