@@ -18,6 +18,39 @@ class GovernmentOfficialHeader extends HTMLElement {
       font-size: 12px;
     }
 
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1330px;
+      }
+    }
+
+
       .row, .row > div {
         display: flex;
         align-items: center;
@@ -120,7 +153,7 @@ class GovernmentOfficialHeader extends HTMLElement {
     </style>
     
     <div class="official-header">
-     <div class="row">
+     <div class="row container">
        <div>
          <img class="flag" src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/dominican-flag.svg" alt="Dominican flag">
          <p>Esta es una web oficial del Gobierno de la República Dominicana</p>
@@ -137,7 +170,7 @@ class GovernmentOfficialHeader extends HTMLElement {
 
      <input type="checkbox" name="toggle" id="toggle">
 
-        <label for="toggle" class="proves">
+        <label for="toggle" class="proves container">
 
       <div>
           <span class="icon">
