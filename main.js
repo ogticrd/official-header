@@ -13,8 +13,9 @@ class GovernmentOfficialHeader extends HTMLElement {
     .official-header {
       font-family: 'Poppins', sans-serif;
       font-size: 14px;
-      padding: 6px 20px;
+      padding: 3px 20px;
       background-color: white;
+      font-size: 12px;
     }
 
       .row, .row > div {
@@ -28,7 +29,7 @@ class GovernmentOfficialHeader extends HTMLElement {
       }
 
       .flag {
-        width: 28px;
+        height: 12px;
       }
 
       .action {
@@ -98,13 +99,11 @@ class GovernmentOfficialHeader extends HTMLElement {
         .proves > div{
           width: 100%;
         }
+
+        
       }
       @media (max-width: 700px) {
-        .row {
-          flex-direction: column;
-          gap: 2px;
-          
-        }
+       
         .row p{
           display: inline;
           margin: 0;
@@ -113,7 +112,9 @@ class GovernmentOfficialHeader extends HTMLElement {
         .row .action{
           display: block;
         }
-
+        .row .action span{
+          display: none;
+        }
       }
 
     </style>
@@ -125,7 +126,8 @@ class GovernmentOfficialHeader extends HTMLElement {
          <p>Esta es una web oficial del Gobierno de la República Dominicana</p>
         </div>
          
-        <label for="toggle" class="action">Así es como puedes saberlo
+        <label for="toggle" class="action">
+         <span>Así es como puedes saberlo</span> 
           <svg xmlns="http://www.w3.org/2000/svg" class="chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 9l-7 7-7-7" />
           </svg>
