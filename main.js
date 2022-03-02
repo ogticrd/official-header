@@ -16,8 +16,9 @@ class GovernmentOfficialHeader extends HTMLElement {
       padding: 3px 20px;
       background-color: white;
       font-size: 12px;
+      border-bottom: 1px solid #ccc;
     }
-
+    
     .container {
       width: 100%;
       padding-right: 15px;
