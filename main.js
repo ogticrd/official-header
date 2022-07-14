@@ -17,6 +17,7 @@ class GovernmentOfficialHeader extends HTMLElement {
       background-color: white;
       font-size: 12px;
       border-bottom: 1px solid #ccc;
+      text-align: left !important;
     }
     
     .container {
@@ -25,6 +26,7 @@ class GovernmentOfficialHeader extends HTMLElement {
       padding-left: 15px;
       margin-right: auto;
       margin-left: auto;
+      text-align: left !important;
     }
 
     @media (min-width: 576px) {
