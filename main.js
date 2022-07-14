@@ -1,8 +1,11 @@
 class GovernmentOfficialHeader extends HTMLElement {
   constructor() {
+    const theme = document.currentScript.getAttribute("theme") || "light";
     super();
     const template = document.createElement("template");
     template.innerHTML = /*html*/ `
+
+
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +21,11 @@ class GovernmentOfficialHeader extends HTMLElement {
       font-size: 12px;
       border-bottom: 1px solid #ccc;
       text-align: left !important;
+    }
+
+    .official-header.dark{
+      background-color: #003876;
+      color: white;
     }
     
     .container {
@@ -68,6 +76,10 @@ class GovernmentOfficialHeader extends HTMLElement {
         height: 12px;
       }
 
+      .official-header.dark .action{
+        color: #0087FF;
+      }
+
       .action {
         color: #003670;
         text-decoration: underline;
@@ -94,6 +106,10 @@ class GovernmentOfficialHeader extends HTMLElement {
         align-items: center;
         justify-content: center;
         border-radius: 50%;
+      }
+
+      .official-header.dark .proves .icon {
+        background: #0087FF;
       }
 
       .proves .icon img{
@@ -155,7 +171,7 @@ class GovernmentOfficialHeader extends HTMLElement {
 
     </style>
     
-    <div class="official-header">
+    <div class="official-header ${theme}">
      <div class="row container">
        <div>
          <img class="flag" src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/dominican-flag.svg" alt="Dominican flag">

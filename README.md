@@ -10,6 +10,15 @@ Para integrar esta herramienta en un proyecto, copie el siguiente código y colo
 <script src="https://cdn.jsdelivr.net/gh/opticrd/official-header/main.js"></script>
 ```
 
+En caso de desear utilizar el tema dark, basta con cambiar la importación del script por:
+
+```html
+<script
+  src="https://cdn.jsdelivr.net/gh/opticrd/official-header/main.js"
+  theme="dark"
+></script>
+```
+
 Luego de esto, podrá utilizar el componente **official-header** en la parte superior de su sitema de navegación
 
 ```html
