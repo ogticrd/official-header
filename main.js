@@ -1,6 +1,9 @@
 class GovernmentOfficialHeader extends HTMLElement {
   constructor() {
-    const theme = document.currentScript.getAttribute("theme") || "light";
+    const theme =
+      (document.currentScript &&
+        document.currentScript.getAttribute("theme")) ||
+      "light";
     super();
     const template = document.createElement("template");
     template.innerHTML = /*html*/ `
