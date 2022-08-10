@@ -7,7 +7,7 @@ Proporciona una manera sencilla de indentificar que se está navegando en una we
 Para integrar esta herramienta en un proyecto, copie el siguiente código y coloquelo en el archivo del index.html de su proyecto.
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/opticrd/official-header/main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/opticrd/official-header/main.js" defer></script>
 ```
 
 En caso de desear utilizar el tema dark, basta con cambiar la importación del script por:
@@ -15,6 +15,7 @@ En caso de desear utilizar el tema dark, basta con cambiar la importación del s
 ```html
 <script
   src="https://cdn.jsdelivr.net/gh/opticrd/official-header/main.js"
+  defer
   theme="dark"
 ></script>
 ```
