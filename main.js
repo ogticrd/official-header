@@ -115,6 +115,10 @@ class GovernmentOfficialHeader extends HTMLElement {
         background: #0087FF;
       }
 
+      .official-header.dark .proves .subtitle {
+        color: white;
+      }
+
       .proves .icon img{
         width: 18px;
         height: 18px;
