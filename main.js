@@ -34,7 +34,6 @@ class GovernmentOfficialHeader extends HTMLElement {
     .container {
       width: 100%;
       padding-right: 15px;
-      padding-left: 15px;
       margin-right: auto;
       margin-left: auto;
       text-align: left !important;
@@ -109,6 +108,8 @@ class GovernmentOfficialHeader extends HTMLElement {
         align-items: center;
         justify-content: center;
         border-radius: 50%;
+        font-size: 12px;
+        line-height: 18px;
       }
 
       .official-header.dark .proves .icon {
@@ -173,6 +174,13 @@ class GovernmentOfficialHeader extends HTMLElement {
         }
         .row .action span{
           display: none;
+        }
+      }
+
+      @media (max-width: 460px) {
+        .official-header > .row.container > div > p {
+          font-size: 2.4vw;
+          white-space: nowrap;
         }
       }
 
