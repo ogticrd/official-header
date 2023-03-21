@@ -144,6 +144,7 @@ class GovernmentOfficialHeader extends HTMLElement {
 
       #toggle:checked + .proves {
         display: flex;
+        align-items: start;
       }
 
       #toggle:checked + .chevron{
