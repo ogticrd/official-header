@@ -68,6 +68,7 @@ class GovernmentOfficialHeader extends HTMLElement {
         display: flex;
         align-items: center;
         gap: 8px;
+        height:20px;
       }
 
       .row  p {
@@ -110,6 +111,7 @@ class GovernmentOfficialHeader extends HTMLElement {
         border-radius: 50%;
         font-size: 12px;
         line-height: 18px;
+        margin-top: 12px;
       }
 
       .official-header.dark .proves .icon {
@@ -127,7 +129,7 @@ class GovernmentOfficialHeader extends HTMLElement {
       
       .proves > div {
         display: flex;
-        align-items: center;
+        align-items: start;
         padding: 8px;
         gap: 16px;
         width: 40%;
