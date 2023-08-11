@@ -214,7 +214,7 @@ class GovernmentOfficialHeader extends HTMLElement {
             <img src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/cupula.svg" alt="cupula">
           </span>
           <div>
-            <p class="subtitle">Los sitios web oficiales utilizan .gob.do .gov.do ó .mil.do</p>
+            <p class="subtitle">Los sitios web oficiales utilizan .gob.do, .gov.do o .mil.do</p>
             <p>Un sitio .gob.do, .gov.do ó .mil.do significa que pertenece a una organización oficial del Estado dominicano.</p>
           </div>
       </div>
@@ -224,8 +224,8 @@ class GovernmentOfficialHeader extends HTMLElement {
             <img src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/lock.svg" alt="cupula">
           </span>
           <div>
-            <p class="subtitle">Los sitios web oficiales .gob.do .gov.do ó .mil.do seguros usan HTTPS</p>
-            <p>Un candado (🔒) o https:// ignifica que estas conectado a un sitio seguro dentro de .gob.do ó .gov.do. Comparte información confidencial sólo en los sitios seguros de .gob.do ó gov.do.</p>
+            <p class="subtitle">Los sitios web oficiales .gob.do, .gov.do o .mil.do seguros usan HTTPS</p>
+            <p>Un candado (🔒) o https:// significa que estás conectado a un sitio seguro dentro de .gob.do o .gov.do. Comparte información confidencial solo en los sitios seguros de .gob.do o gov.do.</p>
           </div>
       </div>
 
