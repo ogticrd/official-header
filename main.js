@@ -215,7 +215,7 @@ class GovernmentOfficialHeader extends HTMLElement {
           </span>
           <div>
             <p class="subtitle">Los sitios web oficiales utilizan .gob.do, .gov.do o .mil.do</p>
-            <p>Un sitio .gob.do, .gov.do ó .mil.do significa que pertenece a una organización oficial del Estado dominicano.</p>
+            <p>Un sitio .gob.do, .gov.do o .mil.do significa que pertenece a una organización oficial del Estado dominicano.</p>
           </div>
       </div>
       
