@@ -192,7 +192,7 @@ class GovernmentOfficialHeader extends HTMLElement {
     <div class="official-header ${theme}">
      <div class="row container">
        <div>
-         <img class="flag" src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/dominican-flag.svg" alt="Dominican flag">
+         <img class="flag" src="https://raw.githubusercontent.com/ogticrd/official-header/master/assets/icons/dominican-flag.svg" alt="Dominican flag">
          <p>Esta es una web oficial del Gobierno de la República Dominicana</p>
         </div>
          
@@ -211,7 +211,7 @@ class GovernmentOfficialHeader extends HTMLElement {
 
       <div>
           <span class="icon">
-            <img src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/cupula.svg" alt="cupula">
+            <img src="https://raw.githubusercontent.com/ogticrd/official-header/master/assets/icons/cupula.svg" alt="cupula">
           </span>
           <div>
             <p class="subtitle">Los sitios web oficiales utilizan .gob.do, .gov.do o .mil.do</p>
@@ -221,7 +221,7 @@ class GovernmentOfficialHeader extends HTMLElement {
       
       <div>
           <span class="icon">
-            <img src="https://raw.githubusercontent.com/opticrd/official-header/master/assets/icons/lock.svg" alt="cupula">
+            <img src="https://raw.githubusercontent.com/ogticrd/official-header/master/assets/icons/lock.svg" alt="cupula">
           </span>
           <div>
             <p class="subtitle">Los sitios web oficiales .gob.do, .gov.do o .mil.do seguros usan HTTPS</p>
